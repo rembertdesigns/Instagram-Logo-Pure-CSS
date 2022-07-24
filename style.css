@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    height: 200px;
+    width: 200px;
+    background: radial-gradient(
+        circle at 30% 107%,
+        #fdf497 0%,
+        #fdf497 5%,
+        #fd5949 45%,
+        #d6249f 60%,
+        #285aeb 90%
+    );
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.square{
+    width: 140px;
+    height: 140px;
+    background-color: transparent;
+    border: 12px solid white;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.circle-big{
+    height: 60px;
+    width: 60px;
+    background-color: transparent;
+    border: 12px solid white;
+    border-radius: 50%;
+}
+.circle-small{
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
